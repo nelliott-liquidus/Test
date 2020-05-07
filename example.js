@@ -1,13 +1,13 @@
 var num1 = parseInt(prompt('Give me a number!'));
 var num2 = parseInt(prompt('Give me another number!'));
 var result;
-
+var num3 = 3;
 var operation = prompt(
   'What would you like to do? (add, subtract, multiply, divide)'
 ).toUpperCase();
 
 if (operation === 'ADD') {
-  result = num1 + num2;
+  result = num1 + num2 + num3;
   alert('The sum of ' + num1 + ' and ' + num2 + ' is ' + result);
 } else if (operation === 'SUBTRACT') {
   result = num1 - num2;
