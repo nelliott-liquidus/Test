@@ -7,7 +7,7 @@ var operation = prompt(
 ).toUpperCase();
 
 if (operation === 'ADD') {
-  result = num1 + num2;
+   result = num1 + num2;
   alert('The sum of ' + num1 + ' and ' + num2 + ' is ' + result);
 } else if (operation === 'SUBTRACT') {
   result = num1 - num2;
