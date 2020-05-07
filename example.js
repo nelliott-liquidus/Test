@@ -1,7 +1,7 @@
 var num1 = parseInt(prompt('Give me a number!'));
 var num2 = parseInt(prompt('Give me another number!'));
 var result;
-var num3 = 3;
+var num3 = 4;
 var operation = prompt(
   'What would you like to do? (add, subtract, multiply, divide)'
 ).toUpperCase();
